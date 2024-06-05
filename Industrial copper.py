@@ -19,19 +19,19 @@ st.write("""
 """, unsafe_allow_html=True)
 
 # Load models and scalers once
-with open(r"C:\\Users\\jeetg\\code\\copper modelling\\model.pkl", 'rb') as file:
+with open(r"C:\\Users\\keshavk\\code\\copper modelling\\model.pkl", 'rb') as file:
     loaded_model = pickle.load(file)
-with open(r'C:\\Users\\jeetg\\code\\copper modelling\\scaler.pkl', 'rb') as f:
+with open(r'C:\\Users\\keshavk\\code\\copper modelling\\scaler.pkl', 'rb') as f:
     scaler_loaded = pickle.load(f)
-with open(r"C:\\Users\\jeetg\\code\\copper modelling\\t.pkl", 'rb') as f:
+with open(r"C:\\Users\\keshavk\\code\\copper modelling\\t.pkl", 'rb') as f:
     t_loaded = pickle.load(f)
-with open(r"C:\\Users\\jeetg\\code\\copper modelling\\s.pkl", 'rb') as f:
+with open(r"C:\\Users\\keshavk\\code\\copper modelling\\s.pkl", 'rb') as f:
     s_loaded = pickle.load(f)
-with open(r"C:\\Users\\jeetg\\code\\copper modelling\\cmodel.pkl", 'rb') as file:
+with open(r"C:\\Users\\keshavk\\code\\copper modelling\\cmodel.pkl", 'rb') as file:
     cloaded_model = pickle.load(file)
-with open(r'C:\\Users\\jeetg\\code\\copper modelling\\cscaler.pkl', 'rb') as f:
+with open(r'C:\\Users\\keshavk\\code\\copper modelling\\cscaler.pkl', 'rb') as f:
     cscaler_loaded = pickle.load(f)
-with open(r"C:\\Users\\jeetg\\code\\copper modelling\\ct.pkl", 'rb') as f:
+with open(r"C:\\Users\\keshavk\\code\\copper modelling\\ct.pkl", 'rb') as f:
     ct_loaded = pickle.load(f)
 
 # Define possible values for dropdown menus
